@@ -1,0 +1,41 @@
+2024-09-27 07:37:10,612 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-09-27 07:37:46,248 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-09-27 07:41:20,590 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-09-27 07:42:13,906 [INFO] django.utils.autoreload: /home/komal/django_projects/inventory_management/inventory_management/urls.py changed, reloading.
+2024-09-27 07:42:14,353 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-09-27 07:42:19,171 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-09-27 07:55:17,633 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-09-27 07:57:03,639 [WARNING] django.request: Not Found: /api/token/
+2024-09-27 07:57:03,640 [WARNING] django.server: "POST /api/token/ HTTP/1.1" 404 2756
+2024-09-27 07:57:39,899 [INFO] django.server: "POST /token/ HTTP/1.1" 200 483
+2024-09-27 08:00:40,934 [INFO] inventory: Fetching the list of inventory items.
+2024-09-27 08:00:41,021 [DEBUG] inventory: Inventory items retrieved from cache or database: <QuerySet [<InventoryItem: book>]>
+2024-09-27 08:00:41,025 [INFO] django.server: "GET /items/ HTTP/1.1" 200 176
+2024-09-27 08:05:26,606 [INFO] inventory: Fetching the list of inventory items.
+2024-09-27 08:05:26,607 [DEBUG] inventory: Inventory items retrieved from cache or database: <QuerySet [<InventoryItem: book>]>
+2024-09-27 08:05:27,065 [INFO] inventory: Creating new inventory item: {'name': 'New Item', 'description': 'Description', 'quantity': 5, 'price': Decimal('49.99')}
+2024-09-27 08:05:27,510 [INFO] inventory: Retrieved inventory item with ID 3.
+2024-09-27 08:05:27,951 [INFO] inventory: Retrieved inventory item with ID 4.
+2024-09-27 08:05:27,954 [INFO] inventory: Retrieved inventory item with ID 4.
+2024-09-27 08:05:27,957 [INFO] inventory: Retrieved inventory item with ID 4.
+2024-09-27 08:05:27,957 [INFO] inventory: Updating inventory item with ID 4. Data: {'name': 'Updated Item', 'description': 'Updated Description', 'quantity': 10, 'price': Decimal('99.99')}
+2024-09-27 08:05:28,402 [INFO] inventory: Retrieved inventory item with ID 5.
+2024-09-27 08:05:28,402 [INFO] inventory: Deleting inventory item with ID 5.
+2024-09-27 08:06:11,308 [INFO] inventory: Fetching the list of inventory items.
+2024-09-27 08:06:11,310 [DEBUG] inventory: Inventory items retrieved from cache or database: <QuerySet []>
+2024-09-27 08:06:11,802 [INFO] inventory: Creating new inventory item: {'name': 'New Item', 'description': 'Description', 'quantity': 5, 'price': Decimal('49.99')}
+2024-09-27 08:06:12,274 [INFO] inventory: Retrieved inventory item with ID 3.
+2024-09-27 08:06:12,721 [INFO] inventory: Retrieved inventory item with ID 4.
+2024-09-27 08:06:12,725 [INFO] inventory: Retrieved inventory item with ID 4.
+2024-09-27 08:06:12,727 [INFO] inventory: Retrieved inventory item with ID 4.
+2024-09-27 08:06:12,727 [INFO] inventory: Updating inventory item with ID 4. Data: {'name': 'Updated Item', 'description': 'Updated Description', 'quantity': 10, 'price': Decimal('99.99')}
+2024-09-27 08:06:13,178 [INFO] inventory: Retrieved inventory item with ID 5.
+2024-09-27 08:06:13,178 [INFO] inventory: Deleting inventory item with ID 5.
+2024-09-27 08:17:25,406 [INFO] django.utils.autoreload: Watching for file changes with StatReloader
+2024-09-27 08:18:08,634 [INFO] django.server: "POST /token/ HTTP/1.1" 200 483
+2024-09-27 08:18:48,623 [WARNING] django.request: Unauthorized: /items/
+2024-09-27 08:18:48,623 [WARNING] django.server: "GET /items/ HTTP/1.1" 401 275
+2024-09-27 08:19:05,156 [INFO] django.server: "POST /token/ HTTP/1.1" 200 483
+2024-09-27 08:19:44,630 [INFO] inventory: Fetching the list of inventory items.
+2024-09-27 08:19:44,634 [DEBUG] inventory: Inventory items retrieved from cache or database: <QuerySet [<InventoryItem: book>]>
+2024-09-27 08:19:44,636 [INFO] django.server: "GET /items/ HTTP/1.1" 200 176
